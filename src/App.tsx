@@ -5,14 +5,14 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const memories = [
-    { image: "images/dinner.jpeg", caption: "Finalist dinner. How I wish we took more photos like these" },
-    { image: "images/funday.JPG", caption: "I loved how you smiled. That's when it dawned on me that I would like to spend my eternity with you." },
-    { image: "images/masaimara.jpg", caption: "One of the loveliest photos we took before celebrating your birthday." },
-    { image: "images/savo.jpg", caption: "Here we went for lunch with our friends. You went to the gym then later on I brought you some flowers." },
-    { image: "images/gday.jpeg", caption: "Girlfriends Day. I brought this for you. I remember you were so happy." },
-    { image: "images/date2.jpeg", caption: "We went for a date at OUR place. Lenzz." },
-    { image: "images/date.jpeg", caption: "Told me about barbecue pizza. I've never tried any other pizza since the day you introduced me to this." },
-    { image: "images/breakfast.jpeg", caption: "You made breakfast for me. This was sweet of you." }
+    { image: "/images/dinner.jpeg", caption: "Finalist dinner. How I wish we took more photos like these" },
+    { image: "/images/funday.JPG", caption: "I loved how you smiled. That's when it dawned on me that I would like to spend my eternity with you." },
+    { image: "/images/masaimara.jpg", caption: "One of the loveliest photos we took before celebrating your birthday." },
+    { image: "/images/savo.jpg", caption: "Here we went for lunch with our friends. You went to the gym then later on I brought you some flowers." },
+    { image: "/images/gday.jpeg", caption: "Girlfriends Day. I brought this for you. I remember you were so happy." },
+    { image: "/images/date2.jpeg", caption: "We went for a date at OUR place. Lenzz." },
+    { image: "/images/date.jpeg", caption: "Told me about barbecue pizza. I've never tried any other pizza since the day you introduced me to this." },
+    { image: "/images/breakfast.jpeg", caption: "You made breakfast for me. This was sweet of you." }
   ];
 
   const gratitudePoints = [
